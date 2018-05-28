@@ -1,0 +1,38 @@
+body {
+      margin: 0;
+      background-color:  #2B2B2B;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    #container {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      padding: 30px;
+      background-color: #2B2B2B;
+      /*box-shadow: 3px 3px 5px 6px #ccc; */
+    }
+    /*body {
+      background-color: gray;
+    }*/
+    svg {
+      background-color: #2B2B2B;
+    }
+    h2 {
+        font-size: 30px;
+        font-family: Georgia, serif;
+        color: white;
+    }
+    p {
+      font-size: 20px;
+      color: white;
+      margin: 15px 0 10px 0;
+    }
+    path {
+      stroke-width: 0.3;
+      stroke:#2B2B2B;
+      fill: #C9FF05;
+    }
+    path:hover {
+      fill: #07918A;
+    }
