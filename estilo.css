@@ -105,9 +105,20 @@ float: right;
   width:50%; 
   height:10%;
    float: right; 
+   text-align: left; 
 }
 
     a:link {text-decoration:none;color:#FFFFFF;} 
     a:visited {text-decoration:none;color:#FFFFFF;} 
     a:active {text-decoration:none;color:#FFFFFF;} 
     a:hover {text-decoration:underline;color:#FFFFFF;}
+
+#mapa{
+    background: #000;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline;
+  float: left;
+  text-align: center;
+}
