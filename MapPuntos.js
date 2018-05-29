@@ -13,9 +13,8 @@ var path = d3.geo.path()
     .projection(projection);
 
 //Create an SVG
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+var svg = d3.select("#mapa").append("svg").attr("preserveAspectRatio", "xMinYMin meet").attr("viewBox", "0 0 960 500");
+
 
 //Group for the map features
 var features = svg.append("g")

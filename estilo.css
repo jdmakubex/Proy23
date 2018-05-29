@@ -88,7 +88,7 @@
 }
 
 #menu{
-  width:55%; 
+  width:60%;
   height:50%;
   float: left; 
 }
@@ -129,7 +129,7 @@ float: right;
     a:hover {text-decoration:underline;color:#FFFFFF;}
 
 #mapa{
-    background: #000;
+    background: transparent;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
